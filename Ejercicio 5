@@ -1,0 +1,32 @@
+Crea una caja rectangular con un ancho de 300px, un alto de 200px y un color de fondo rojo. Coloca un texto centrado en el interior de la caja que diga "¡Soy una caja de contenido!". Estiliza el texto para que sea de color blanco y tenga un tamaño de fuente de 20px.
+
+html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <div class="caja">
+        ¡Soy una caja de contenido!
+    </div>      
+</body>
+</html>
+
+css:
+.caja {
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+  }
+ 
