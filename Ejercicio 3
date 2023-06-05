@@ -1,0 +1,49 @@
+Crea una tabla con tres filas y tres columnas. Rellena la tabla con información ficticia, como nombres, edades y correos electrónicos. Estiliza la tabla para que tenga un borde sólido y un espaciado interno de 10px en las celdas.
+
+html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Correo electrónico</th>
+        </tr>
+        <tr>
+          <td>Diego Villavicencio</td>
+          <td>42</td>
+          <td>opaul39@yahoo.es</td>
+        </tr>
+        <tr>
+          <td>Marlene Ortega</td>
+          <td>25</td>
+          <td>marlene25@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Luis Calva</td>
+          <td>31</td>
+          <td>luca90@gmail.com</td>
+        </tr>
+      </table>  
+</body>
+</html>
+
+
+css:
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 2px solid black;
+    padding: 10px;
+  }
