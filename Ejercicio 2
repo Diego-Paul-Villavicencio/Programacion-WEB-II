@@ -1,0 +1,35 @@
+Ejercicio 2: Crea una lista desordenada que contenga tres elementos. Cada elemento debe ser un enlace a una página web diferente. Estiliza los enlaces para que tengan un color de fuente verde y un fondo amarillo cuando se les haga hover.
+
+html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="lista">
+        <ul>
+            <li><a href="Elemento 1">https://www.cnt.gob.ec/</a></li>
+            <li><a href="Elemento 2">https://www.adelca.com/</a></li>
+            <li><a href="Elemento 3">https://www.nestle.com.ec/</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+
+css:
+ul {
+    color:green;
+}
+
+.lista a {
+    color: green;
+}
+
+.lista a:hover {
+    color: yellow;
+}
