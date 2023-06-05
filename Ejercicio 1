@@ -1,0 +1,22 @@
+Ejercicio 1: Crea una página web que contenga un encabezado con el título "Mi Página Web" y un párrafo que diga "¡Bienvenido a mi página web!". Estiliza el encabezado con un tamaño de fuente de 30px y un color de fuente azul.
+
+html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <h1>¡Bienvenido a mi página web!</h1> 
+</body>
+</html>
+
+css:
+h1 {
+    color: blue;
+    font-size: 30px;
+}
